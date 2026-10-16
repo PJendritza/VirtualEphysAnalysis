@@ -20,7 +20,7 @@ The notebooks run in your browser using JupyterLite and Python (Pyodide). Studen
 1. Open Visual Neuron Lab and record an orientation-tuning or spatial-mapping experiment.
 2. Stop recording and **download the recording ZIP**. Leave it zipped.
 3. Open the matching analysis notebook above. Select **Python (Pyodide)** if asked for a kernel.
-4. Run the first code cell with **Shift+Enter**, wait for the upload button, and use it to select your recording ZIP.
+4. Run the first code cell with **Shift+Enter**. On first use, it downloads the required packages into browser Python; wait for the upload button, then use it to select your recording ZIP.
 5. Once the recording is loaded, continue through the notebook in order using Shift+Enter. Read the questions and explore the plots as you go.
 6. **Download your edited notebook to preserve your work** (right-click the notebook in the file browser and choose Download). Browser-local storage is not a backup and may be cleared.
 
