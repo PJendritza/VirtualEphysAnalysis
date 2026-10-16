@@ -7,9 +7,10 @@ The notebooks run in your browser using JupyterLite and Python (Pyodide). Studen
 ## Open the teaching materials
 
 - [Visual Neuron Lab — record an experiment](https://patrickjendritza.com/VirtualEphysRig/dist/)
-- [Analysis 1 — Orientation tuning](https://patrickjendritza.com/VirtualEphysAnalysis/lab/index.html?path=Analysis_Exercise1_OrientationTuning.ipynb)
-- [Analysis 2 — Spatial receptive-field mapping](https://patrickjendritza.com/VirtualEphysAnalysis/lab/index.html?path=Analysis_Exercise2_SpatialRF.ipynb)
-- [JupyterLite workspace](https://patrickjendritza.com/VirtualEphysAnalysis/lab/index.html)
+- [Analysis 1 — Orientation tuning](https://patrickjendritza.com/VirtualEphysAnalysis/notebooks/?path=Analysis_Exercise1_OrientationTuning.ipynb)
+- [Analysis 2 — Spatial receptive-field mapping](https://patrickjendritza.com/VirtualEphysAnalysis/notebooks/?path=Analysis_Exercise2_SpatialRF.ipynb)
+
+These links open a single notebook in the clean Notebook interface, without the JupyterLab file-browser sidebar.
 
 **Analysis 1** explores raw voltage, high-pass filtering, negative-threshold event detection, trial-aligned rasters, and an orientation tuning curve.
 
@@ -22,7 +23,7 @@ The notebooks run in your browser using JupyterLite and Python (Pyodide). Studen
 3. Open the matching analysis notebook above. Select **Python (Pyodide)** if asked for a kernel.
 4. Run the first code cell with **Shift+Enter**. On first use, it downloads the required packages into browser Python; wait for the upload button, then use it to select your recording ZIP.
 5. Once the recording is loaded, continue through the notebook in order using Shift+Enter. Read the questions and explore the plots as you go.
-6. **Download your edited notebook to preserve your work** (right-click the notebook in the file browser and choose Download). Browser-local storage is not a backup and may be cleared.
+6. **Download your edited notebook to preserve your work** using **File → Download**. Browser-local storage is not a backup and may be cleared.
 
 When changing recordings, restart the kernel, run the upload cell, select the new ZIP, and rerun the remaining cells in order so old analysis variables are not reused.
 
