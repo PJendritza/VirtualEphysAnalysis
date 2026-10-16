@@ -6,6 +6,8 @@ The notebooks run in your browser using JupyterLite and Python (Pyodide). Studen
 
 ## Open the teaching materials
 
+**One link for students:** [IMPRS Methods Course 2026 · Student Materials](https://patrickjendritza.com/VirtualEphysAnalysis/students-2026.html)
+
 - [Visual Neuron Lab — record an experiment](https://patrickjendritza.com/VirtualEphysRig/dist/)
 - [Analysis 1 — Orientation tuning](https://patrickjendritza.com/VirtualEphysAnalysis/notebooks/?path=Analysis_Exercise1_OrientationTuning.ipynb)
 - [Analysis 2 — Spatial receptive-field mapping](https://patrickjendritza.com/VirtualEphysAnalysis/notebooks/?path=Analysis_Exercise2_SpatialRF.ipynb)
@@ -32,6 +34,8 @@ The complete voltage recording remains available for inspection. Experimental tr
 ## Maintaining the course notebooks
 
 The teaching notebooks live in **`content/`**. Edit those files, not duplicate copies in the repository root. The GitHub Actions workflow copies this README into `content/`, builds the JupyterLite site, and publishes the generated `dist/` artifact through GitHub Pages. Pages must use **GitHub Actions** as its source.
+
+The student homepage is the single root file **`students-2026.html`**, copied into the published site during the same build.
 
 The template examples and dependencies remain available. There is no server-side Python service: computations and uploaded recordings stay in the browser. Do not rely on browser storage alone; download recordings and edited notebooks you want to keep.
 

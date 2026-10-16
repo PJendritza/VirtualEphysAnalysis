@@ -25,6 +25,7 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
+          cp students-2026.html dist/students-2026.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
